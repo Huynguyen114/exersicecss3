@@ -1,0 +1,48 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.card-accounts {
+  margin: auto;
+  width: 45%;
+}
+
+.card-accounts__title {
+  border-bottom: 2px dashed;
+  margin-bottom: 24px;
+  padding-bottom: 11px;
+}
+
+.card-accounts__userinfor {
+  font-size: 25px;
+  margin-right: 96px;
+}
+
+.card-accounts__user {
+  border: 2px solid darkgrey;
+  border-radius: 12px;
+}
+
+i.far.fa-trash-alt {
+  font-size: 31px;
+  color: palevioletred;
+  margin-right: 39px;
+}
+
+.card-accounts__user {
+  display: flex;
+  align-items: center;
+}
+
+.card-accounts__accounts {
+  display: flex;
+  margin-bottom: 16px;
+}
+
+img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin: 17px;
+}
