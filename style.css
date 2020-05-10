@@ -3,6 +3,87 @@
   margin: 0px;
 }
 
+p {
+  font-size: 28px;
+}
+
+button.add {
+  font-size: 37px;
+  margin: 0px 33px 10px 40px;
+  border-radius: 8px;
+  border: none;
+  padding-top: 4px;
+  width: 50px;
+  height: 50px;
+  background-color: #55c181;
+  color: white;
+}
+
+button.comment {
+  font-size: 37px;
+  margin: 0px 33px 10px 40px;
+  border-radius: 8px;
+  border: none;
+  padding-top: 4px;
+  width: 50px;
+  height: 50px;
+  background-color: #448fd3;
+  color: white;
+}
+
+button.add-dependency {
+  font-size: 20px;
+  margin: 0px 33px 10px 40px;
+  border-radius: 8px;
+  border: none;
+  padding-top: 4px;
+  width: 50px;
+  height: 50px;
+  background-color: #e5c13e;
+  color: white;
+}
+
+button.copy-block {
+  font-size: 20px;
+  margin: 0px 33px 10px 40px;
+  border-radius: 8px;
+  border: none;
+  padding-top: 4px;
+  width: 50px;
+  height: 50px;
+  background-color: #7155c1;
+  color: white;
+  /* margin-bottom: 41px; */
+}
+
+.card-form__button {
+  display: flex;
+  align-items: center;
+  margin: 12px 3px;
+}
+
+input[type='text'] {
+  margin: 37px 0px;
+  background-color: #576169;
+  border: none;
+  border-radius: 6px;
+  width: 84%;
+  height: 44px;
+  padding-left: 20px;
+  box-sizing: border-box;
+  font-size: 20px;
+}
+
+.card-form {
+  margin: 20px auto;
+  width: 32%;
+  background-color: #2d3944;
+  border-radius: 14px;
+  text-align: center;
+  color: white;
+  padding-bottom: 19px;
+}
+
 .card-accounts {
   margin: auto;
   width: 45%;
